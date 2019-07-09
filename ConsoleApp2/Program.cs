@@ -11,16 +11,16 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             
-            int sumthreeandfive = 0;
+            int sumThreeAndFive = 0;
             for (int i = 0; i <= 999; i++){
                 if (i % 3 == 0 || i % 5 == 0)
                 {
-                    sumthreeandfive += i;
+                    sumThreeAndFive += i;
                 }
             }
             
             
-            Console.WriteLine("Total = " + sumthreeandfive);
+            Console.WriteLine("Total = " + sumThreeAndFive);
             Console.ReadKey();
 
         }
